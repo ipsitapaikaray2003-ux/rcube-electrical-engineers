@@ -1,0 +1,243 @@
+/* ===========================================
+                PROJECTS
+=========================================== */
+
+.projects{
+    width:100%;
+    padding:120px 0;
+    background:#f8f9fb;
+}
+
+.projects .container{
+    width:90%;
+    max-width:1400px;
+    margin:auto;
+}
+
+/* ===========================================
+                HEADING
+=========================================== */
+
+.project-heading{
+    text-align:center;
+    margin-bottom:70px;
+}
+
+.project-heading span{
+    color:#b89668;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:4px;
+    text-transform:uppercase;
+}
+
+.project-heading h2{
+    margin-top:15px;
+    font-size:52px;
+    color:#111827;
+    line-height:1.2;
+    font-weight:700;
+}
+
+.project-heading p{
+    max-width:720px;
+    margin:20px auto 0;
+    color:#6b7280;
+    font-size:17px;
+    line-height:1.8;
+}
+
+/* ===========================================
+              BENTO GRID
+=========================================== */
+
+.bento-grid{
+
+    display:grid;
+
+    gap:22px;
+
+    grid-template-columns:2fr 1fr;
+
+    grid-template-rows:
+    260px
+    260px
+    260px;
+
+}
+
+/* Cards */
+
+.item{
+
+    overflow:hidden;
+
+    border-radius:24px;
+
+    background:#fff;
+
+    cursor:pointer;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transition:.4s ease;
+
+}
+
+.item img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    transition:.6s;
+
+}
+
+.item:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 45px rgba(184,150,104,.25);
+
+}
+
+.item:hover img{
+
+    transform:scale(1.08);
+
+}
+
+/* ===========================================
+           BENTO POSITION
+=========================================== */
+
+.item1{
+
+    grid-row:1 / span 2;
+
+}
+
+.item2{
+
+    grid-column:2;
+
+    grid-row:1;
+
+}
+
+.item3{
+
+    grid-column:2;
+
+    grid-row:2;
+
+}
+
+.item4{
+
+    grid-column:1;
+
+    grid-row:3;
+
+}
+
+.item5{
+
+    grid-column:2;
+
+    grid-row:3;
+
+}
+
+/* Bottom */
+
+.item6{
+
+    grid-column:1;
+
+}
+
+.item7{
+
+    grid-column:2;
+
+}
+
+.item8{
+
+    grid-column:1 / span 2;
+
+    height:280px;
+
+}
+
+/* ===========================================
+          RESPONSIVE
+=========================================== */
+
+@media(max-width:991px){
+
+.bento-grid{
+
+grid-template-columns:1fr 1fr;
+
+grid-template-rows:auto;
+
+}
+
+.item,
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.item8{
+
+grid-column:auto;
+
+grid-row:auto;
+
+height:260px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.projects{
+
+padding:80px 0;
+
+}
+
+.project-heading h2{
+
+font-size:34px;
+
+}
+
+.project-heading p{
+
+font-size:15px;
+
+}
+
+.bento-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.item{
+
+height:240px;
+
+}
+
+}

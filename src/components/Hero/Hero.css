@@ -1,0 +1,473 @@
+/* ==========================================
+   HERO SECTION
+========================================== */
+
+.hero{
+    width:100%;
+    height:100vh;
+    position:relative;
+}
+
+.heroSwiper{
+    width:100%;
+    height:100%;
+}
+
+.hero-slide{
+    position:relative;
+    width:100%;
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    overflow:hidden;
+    animation:zoomHero 8s ease-in-out infinite alternate;
+}
+
+/* Overlay */
+
+.overlay{
+    position:absolute;
+    inset:0;
+    background:linear-gradient(
+        rgba(10,15,20,.72),
+        rgba(10,15,20,.68)
+    );
+}
+
+/* ===========================
+   HERO CONTENT
+=========================== */
+
+.hero-content{
+
+    position:absolute;
+
+    inset:0;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    z-index:5;
+
+}
+
+.hero-text{
+
+    width:100%;
+
+    max-width:900px;
+
+    padding:0 20px;
+
+    animation:fadeUp 1.2s ease;
+
+}
+
+/* Welcome Tag */
+
+.hero-tag{
+
+    display:inline-block;
+
+    padding:12px 26px;
+
+    border-radius:50px;
+
+    background:rgba(255,255,255,.08);
+
+    border:1px solid rgba(255,255,255,.18);
+
+    backdrop-filter:blur(12px);
+
+    color:#D6C09A;
+
+    text-transform:uppercase;
+
+    letter-spacing:3px;
+
+    font-size:13px;
+
+    margin-bottom:28px;
+
+}
+
+/* Heading */
+
+.hero-text h1{
+
+    font-family:"Poppins",sans-serif;
+
+    font-size:60px;
+
+    font-weight:700;
+
+    color:#fff;
+
+    line-height:1.15;
+
+    margin:0 auto 28px;
+
+    max-width:850px;
+
+}
+
+/* Description */
+
+.hero-text p{
+
+    max-width:700px;
+
+    margin:0 auto 45px;
+
+    color:#ECECEC;
+
+    font-size:18px;
+
+    line-height:1.9;
+
+}
+
+/* Buttons */
+
+.hero-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.primary-btn{
+
+    padding:16px 38px;
+
+    border:none;
+
+    border-radius:50px;
+
+    background:#8B7355;
+
+    color:#fff;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.4s;
+
+}
+
+.primary-btn:hover{
+
+    transform:translateY(-4px);
+
+    background:#A58B66;
+
+}
+
+.secondary-btn{
+
+    padding:16px 38px;
+
+    border-radius:50px;
+
+    border:2px solid #fff;
+
+    background:transparent;
+
+    color:#fff;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.4s;
+
+}
+
+.secondary-btn:hover{
+
+    background:#fff;
+
+    color:#222;
+
+    transform:translateY(-4px);
+
+}
+/* ==========================================
+   SWIPER
+========================================== */
+
+.swiper-button-next,
+.swiper-button-prev{
+    width:55px !important;
+    height:55px !important;
+    border-radius:50%;
+    background:rgba(255,255,255,.12);
+    backdrop-filter:blur(10px);
+    transition:.4s;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover{
+    background:#8B7355;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after{
+    font-size:18px !important;
+    color:#fff;
+    font-weight:700;
+}
+
+.swiper-pagination{
+    bottom:35px !important;
+}
+
+.swiper-pagination-bullet{
+    width:12px;
+    height:12px;
+    background:#fff !important;
+    opacity:.4;
+    transition:.4s;
+}
+
+.swiper-pagination-bullet-active{
+    width:35px;
+    border-radius:30px;
+    background:#8B7355 !important;
+    opacity:1;
+}
+
+/* ==========================================
+   ANIMATIONS
+========================================== */
+
+@keyframes fadeUp{
+
+    from{
+        opacity:0;
+        transform:translateY(60px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+@keyframes zoomHero{
+
+    from{
+        transform:scale(1);
+    }
+
+    to{
+        transform:scale(1.08);
+    }
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:1200px){
+
+.hero-text h1{
+
+font-size:52px;
+
+}
+
+.hero-text p{
+
+font-size:17px;
+
+}
+
+}
+
+@media(max-width:992px){
+
+.hero-content{
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+}
+
+.hero-text{
+
+max-width:100%;
+
+padding:0 40px;
+
+}
+
+.hero-text h1{
+
+font-size:44px;
+
+}
+
+.hero-text p{
+
+font-size:16px;
+
+line-height:1.8;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.hero{
+
+height:90vh;
+
+}
+
+.hero-slide{
+
+height:90vh;
+
+}
+
+.hero-tag{
+
+font-size:11px;
+
+letter-spacing:2px;
+
+padding:10px 18px;
+
+}
+
+.hero-text{
+
+padding:0 20px;
+
+}
+
+.hero-text h1{
+
+font-size:34px;
+
+line-height:1.25;
+
+}
+
+.hero-text p{
+
+font-size:15px;
+
+margin-bottom:30px;
+
+}
+
+.hero-buttons{
+
+flex-direction:column;
+
+}
+
+.primary-btn,
+.secondary-btn{
+
+width:230px;
+
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+
+display:none !important;
+
+}
+
+}
+
+@media(max-width:480px){
+
+.hero-text h1{
+
+font-size:28px;
+
+}
+
+.hero-text p{
+
+font-size:14px;
+
+}
+
+.hero-tag{
+
+font-size:10px;
+
+}
+
+.hero-buttons{
+
+gap:15px;
+
+}
+
+.primary-btn,
+.secondary-btn{
+
+width:100%;
+
+}
+
+}
+.hero-services{
+    margin-top:45px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.service-box{
+    padding:12px 20px;
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.18);
+    backdrop-filter:blur(15px);
+    border-radius:50px;
+    color:#fff;
+    font-size:14px;
+    transition:.35s;
+}
+
+.service-box:hover{
+    background:#8B7355;
+    transform:translateY(-4px);
+}
+
+.service-box span{
+    margin-left:8px;
+}

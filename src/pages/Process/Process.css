@@ -1,0 +1,318 @@
+/*==========================================
+            PROCESS PAGE
+==========================================*/
+
+.process-hero{
+    height:60vh;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.process-hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(15,23,42,.78);
+}
+
+.process-overlay{
+    position:relative;
+    z-index:2;
+    text-align:center;
+    color:#fff;
+    width:90%;
+    max-width:850px;
+}
+
+.process-overlay span{
+    color:#C8A46A;
+    letter-spacing:4px;
+    text-transform:uppercase;
+    font-size:14px;
+    font-weight:600;
+}
+
+.process-overlay h1{
+    font-size:60px;
+    margin:20px 0;
+    font-weight:700;
+}
+
+.process-overlay p{
+    color:#ddd;
+    font-size:18px;
+    line-height:1.8;
+}
+
+/*==========================================
+            PROCESS SECTION
+==========================================*/
+
+.process-section{
+    padding:110px 0;
+    background:#f8f9fb;
+}
+
+.process-heading{
+    text-align:center;
+    margin-bottom:80px;
+}
+
+.process-heading span{
+    color:#C8A46A;
+    letter-spacing:3px;
+    font-size:14px;
+    font-weight:600;
+}
+
+.process-heading h2{
+    margin-top:18px;
+    font-size:46px;
+    color:#111827;
+    line-height:1.3;
+}
+
+/*==========================================
+            TIMELINE
+==========================================*/
+
+.timeline{
+    width:90%;
+    max-width:1250px;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:35px;
+}
+
+/*==========================================
+            CARD
+==========================================*/
+
+.timeline-card{
+
+    background:#fff;
+
+    border-radius:24px;
+
+    padding:40px 35px;
+
+    position:relative;
+
+    overflow:hidden;
+
+    text-align:center;
+
+    border:1px solid rgba(200,164,106,.18);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+    transition:.45s;
+
+}
+
+.timeline-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 25px 55px rgba(0,0,0,.18);
+
+    border-color:#C8A46A;
+
+}
+
+/* Shine Animation */
+
+.timeline-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:-120%;
+    left:-120%;
+
+    width:240%;
+    height:240%;
+
+    background:linear-gradient(
+        135deg,
+        transparent,
+        rgba(255,255,255,.35),
+        transparent
+    );
+
+    transform:rotate(25deg);
+
+    transition:1s;
+
+}
+
+.timeline-card:hover::before{
+
+    top:120%;
+    left:120%;
+
+}
+
+/*==========================================
+            NUMBER
+==========================================*/
+
+.timeline-number{
+
+    position:absolute;
+
+    top:20px;
+    right:20px;
+
+    font-size:45px;
+
+    font-weight:800;
+
+    color:rgba(200,164,106,.15);
+
+}
+
+/*==========================================
+            ICON
+==========================================*/
+
+.timeline-icon{
+
+    width:80px;
+    height:80px;
+
+    margin:auto;
+
+    margin-bottom:25px;
+
+    background:linear-gradient(135deg,#C8A46A,#B88945);
+
+    color:#fff;
+
+    border-radius:20px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:34px;
+
+    transition:.45s;
+
+}
+
+.timeline-card:hover .timeline-icon{
+
+    transform:rotate(-10deg) scale(1.1);
+
+}
+
+.timeline-card h3{
+
+    color:#111827;
+
+    font-size:24px;
+
+    margin-bottom:18px;
+
+}
+
+.timeline-card p{
+
+    color:#6b7280;
+
+    line-height:1.8;
+
+    font-size:16px;
+
+}
+
+/*==========================================
+            RESPONSIVE
+==========================================*/
+
+@media(max-width:992px){
+
+.timeline{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.process-overlay h1{
+
+font-size:46px;
+
+}
+
+.process-heading h2{
+
+font-size:36px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.process-hero{
+
+height:45vh;
+
+}
+
+.process-overlay h1{
+
+font-size:34px;
+
+}
+
+.process-overlay p{
+
+font-size:15px;
+
+}
+
+.timeline{
+
+grid-template-columns:1fr;
+
+}
+
+.timeline-card{
+
+padding:30px;
+
+}
+
+.timeline-icon{
+
+width:65px;
+height:65px;
+font-size:28px;
+
+}
+
+.process-heading h2{
+
+font-size:30px;
+
+}
+
+.process-section{
+
+padding:80px 0;
+
+}
+
+}

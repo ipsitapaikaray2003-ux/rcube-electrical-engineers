@@ -1,0 +1,542 @@
+/* ==========================================
+   SERVICES
+========================================== */
+
+.services{
+    width:100%;
+    background:#F8F6F2;
+    padding:120px 0;
+    overflow:hidden;
+}
+
+.services-title{
+    text-align:center;
+    margin-bottom:90px;
+}
+
+.services-title span{
+    color:#B89668;
+    font-size:13px;
+    letter-spacing:10px;
+    text-transform:uppercase;
+    font-weight:500;
+}
+
+/* ==========================================
+   WRAPPER
+========================================== */
+
+.services-wrapper{
+
+    width:90%;
+
+    max-width:1450px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(5,1fr);
+
+    position:relative;
+
+    border-left:1px solid #E2DDD6;
+
+}
+
+/* ==========================================
+   CARD
+========================================== */
+
+.service-card{
+
+    position:relative;
+
+    padding:0 34px 50px;
+
+    border-right:1px solid #E2DDD6;
+
+    transition:.45s;
+
+}
+
+/* ==========================================
+   STAGGER LAYOUT
+========================================== */
+
+.card-one{
+
+    margin-top:0;
+
+}
+
+.card-two{
+
+    margin-top:90px;
+
+}
+
+.card-three{
+
+    margin-top:0;
+
+}
+
+.card-four{
+
+    margin-top:90px;
+
+}
+
+.card-five{
+
+    margin-top:0;
+
+}
+
+/* ==========================================
+   NUMBER
+========================================== */
+
+.service-number{
+
+    color:#B89668;
+
+    font-size:28px;
+
+    font-weight:300;
+
+    margin-bottom:40px;
+
+}
+
+/* ==========================================
+   TITLE
+========================================== */
+
+.service-card h3{
+
+    color:#1F2329;
+
+    font-size:28px;
+
+    line-height:1.25;
+
+    font-weight:500;
+
+    margin-bottom:35px;
+
+}
+
+/* ==========================================
+   IMAGE
+========================================== */
+
+.service-card img{
+
+    width:100%;
+
+    height:170px;
+
+    object-fit:cover;
+
+    border-radius:16px;
+
+    margin-bottom:35px;
+
+    transition:.5s;
+
+}
+
+/* ==========================================
+   DESCRIPTION
+========================================== */
+
+.service-card p{
+
+    color:#666;
+
+    font-size:15px;
+
+    line-height:2;
+
+    margin-bottom:45px;
+
+}
+/* ==========================================
+   BUTTON
+========================================== */
+
+.service-card button{
+
+    width:52px;
+
+    height:52px;
+
+    border-radius:50%;
+
+    border:1px solid #D9D4CC;
+
+    background:#fff;
+
+    color:#1F2329;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    cursor:pointer;
+
+    transition:.45s ease;
+
+    font-size:14px;
+
+}
+
+.service-card button svg{
+
+    transition:.45s;
+
+}
+
+.service-card:hover button{
+
+    background:#B89668;
+
+    color:#fff;
+
+    border-color:#B89668;
+
+}
+
+.service-card:hover button svg{
+
+    transform:translateX(4px);
+
+}
+
+/* ==========================================
+   HOVER EFFECT
+========================================== */
+
+.service-card{
+
+    transition:.45s ease;
+
+}
+
+.service-card:hover{
+
+    transform:translateY(-15px);
+
+}
+
+.service-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.service-card:hover h3{
+
+    color:#B89668;
+
+}
+
+/* Bottom Gold Line */
+
+.service-card::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:0;
+
+    width:0;
+
+    height:3px;
+
+    background:#B89668;
+
+    transition:.45s;
+
+}
+
+.service-card:hover::after{
+
+    width:100%;
+
+}
+
+/* ==========================================
+   FADE ANIMATION
+========================================== */
+
+.service-card{
+
+    opacity:0;
+
+    animation:fadeUp .8s ease forwards;
+
+}
+
+.card-one{
+
+    animation-delay:.1s;
+
+}
+
+.card-two{
+
+    animation-delay:.25s;
+
+}
+
+.card-three{
+
+    animation-delay:.4s;
+
+}
+
+.card-four{
+
+    animation-delay:.55s;
+
+}
+
+.card-five{
+
+    animation-delay:.7s;
+
+}
+
+@keyframes fadeUp{
+
+from{
+
+opacity:0;
+
+transform:translateY(60px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+/* ==========================================
+   PREMIUM SPACING (REFERENCE STYLE)
+========================================== */
+
+/* Card Heights */
+
+.card-one{
+
+    padding-top:20px;
+
+}
+
+.card-two{
+
+    padding-top:110px;
+
+}
+
+.card-three{
+
+    padding-top:20px;
+
+}
+
+.card-four{
+
+    padding-top:110px;
+
+}
+
+.card-five{
+
+    padding-top:20px;
+
+}
+
+/* Image Size */
+
+.service-card img{
+
+    width:100%;
+
+    max-width:220px;
+
+    height:145px;
+
+    object-fit:cover;
+
+    border-radius:14px;
+
+}
+
+/* Description Width */
+
+.service-card p{
+
+    max-width:220px;
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:1200px){
+
+.services-wrapper{
+
+grid-template-columns:repeat(3,1fr);
+
+}
+
+.card-two,
+.card-four{
+
+margin-top:60px;
+
+}
+
+}
+
+@media(max-width:992px){
+
+.services{
+
+padding:90px 0;
+
+}
+
+.services-wrapper{
+
+grid-template-columns:repeat(2,1fr);
+
+border-left:none;
+
+}
+
+.service-card{
+
+border:1px solid #E5E2DB;
+
+margin-bottom:30px;
+
+padding:35px;
+
+}
+
+.card-one,
+.card-two,
+.card-three,
+.card-four,
+.card-five{
+
+margin-top:0;
+
+padding-top:35px;
+
+}
+
+.service-card img{
+
+max-width:100%;
+
+height:190px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.services-wrapper{
+
+grid-template-columns:1fr;
+
+}
+
+.services-title{
+
+margin-bottom:60px;
+
+}
+
+.services-title span{
+
+letter-spacing:5px;
+
+font-size:12px;
+
+}
+
+.service-card{
+
+padding:30px;
+
+}
+
+.service-card h3{
+
+font-size:26px;
+
+}
+
+.service-card p{
+
+font-size:15px;
+
+line-height:1.8;
+
+}
+
+.service-card img{
+
+height:200px;
+
+}
+
+}
+
+@media(max-width:480px){
+
+.services{
+
+padding:70px 0;
+
+}
+
+.service-card h3{
+
+font-size:24px;
+
+}
+
+.service-card img{
+
+height:180px;
+
+}
+
+.service-number{
+
+font-size:22px;
+
+}
+
+}
