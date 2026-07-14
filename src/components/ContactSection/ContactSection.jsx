@@ -124,7 +124,7 @@ function ContactSection() {
               </div>
 
               <div>
-                <span>Office</span>
+                <span>Head Office</span>
                 <h4>Hyderabad, Telangana</h4>
               </div>
             </a>

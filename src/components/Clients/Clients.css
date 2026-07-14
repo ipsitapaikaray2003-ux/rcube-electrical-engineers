@@ -1,0 +1,227 @@
+.clients{
+
+    padding:100px 0;
+
+    background:#ffffff;
+
+}
+
+.clients-heading{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+.clients-heading span{
+
+    color:#C8A46A;
+
+    letter-spacing:4px;
+
+    font-size:14px;
+
+    font-weight:700;
+
+}
+
+.clients-heading h2{
+
+    margin-top:15px;
+
+    font-size:42px;
+
+    color:#111827;
+
+}
+
+/* =======================
+        SLIDER
+======================= */
+
+.clients-slider{
+
+    width:100%;
+
+    overflow:hidden;
+
+    position:relative;
+
+    margin-top:40px;
+
+}
+
+.clients-track{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:35px;
+
+    width:max-content;
+
+    animation:scrollClients 30s linear infinite;
+
+}
+
+.clients-slider:hover .clients-track{
+
+    animation-play-state:paused;
+
+}
+
+/* =======================
+        LOGO CARD
+======================= */
+
+.client-logo{
+
+    width:220px;
+
+    height:120px;
+
+    margin:0 20px;
+
+    background:#ffffff;
+
+    border-radius:18px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:20px;
+
+    box-shadow:0 12px 35px rgba(0,0,0,.08);
+
+    transition:.35s ease;
+
+}
+
+.client-logo:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 22px 45px rgba(0,0,0,.15);
+
+}
+
+/* =======================
+        IMAGE
+======================= */
+
+.client-logo img{
+
+    width:100%;
+
+    max-width:150px;
+
+    max-height:80px;
+
+    object-fit:contain;
+
+    transition:.35s ease;
+
+}
+
+.client-logo:hover img{
+
+    transform:scale(1.08);
+
+}
+
+/* =======================
+        AUTO SCROLL
+======================= */
+
+@keyframes scrollClients{
+
+    0%{
+
+        transform:translateX(0);
+
+    }
+
+    100%{
+
+        transform:translateX(-50%);
+
+    }
+
+}
+
+/* =======================
+        MOBILE
+======================= */
+
+@media(max-width:992px){
+
+.client-logo{
+
+    width:180px;
+
+    height:100px;
+
+}
+
+.client-logo img{
+
+    max-width:120px;
+
+    max-height:65px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.clients{
+
+    padding:70px 0;
+
+}
+
+.clients-heading h2{
+
+    font-size:32px;
+
+}
+
+.clients-heading span{
+
+    font-size:12px;
+
+}
+
+.client-logo{
+
+    width:150px;
+
+    height:90px;
+
+    margin:0 12px;
+
+}
+
+.client-logo img{
+
+    max-width:100px;
+
+    max-height:55px;
+
+}
+
+.clients-track{
+
+    gap:20px;
+
+    animation-duration:22s;
+
+}
+
+}
