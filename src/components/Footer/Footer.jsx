@@ -61,19 +61,15 @@ function Footer() {
       <div className="footer-cta">
 
         <h2>
-
           Ready To Power
           <br />
           Your Next Project?
-
         </h2>
 
         <p>
-
           Let's discuss your electrical engineering
           requirements and deliver reliable
           solutions together.
-
         </p>
 
         <Link
@@ -82,31 +78,26 @@ function Footer() {
         >
 
           <span className="consult-icon">
-
             <FaUserTie />
-
           </span>
 
           <span className="consult-text">
-
             Get Free Consultation
-
           </span>
 
           <span className="consult-arrow">
-
             <FaArrowRight />
-
           </span>
 
         </Link>
 
       </div>
 
-      {/* ================= FOOTER MAIN ================= */}
+      {/* ================= FOOTER ================= */}
 
       <div className="footer-main">
-              {/* ================= ABOUT ================= */}
+
+        {/* ================= ABOUT ================= */}
 
         <div className="footer-about">
 
@@ -116,15 +107,11 @@ function Footer() {
           />
 
           <p>
-
             RCube Electrical & Engineers provides complete
             electrical engineering solutions for commercial,
             industrial and infrastructure projects with
-            quality and commitment.
-
+            quality, innovation and commitment.
           </p>
-
-          {/* ================= SOCIAL ================= */}
 
           <div className="footer-social">
 
@@ -170,13 +157,9 @@ function Footer() {
 
           <h3>Quick Links</h3>
 
-          <Link to="/">
-            Home
-          </Link>
+          <Link to="/">Home</Link>
 
-          <Link to="/about">
-            About
-          </Link>
+          <Link to="/about">About</Link>
 
           <button
             className="footer-link-btn"
@@ -207,12 +190,11 @@ function Footer() {
 
           <h3>Contact</h3>
 
-
           <a href="tel:+919108146948">
 
             <FaPhoneAlt />
 
-            +91 91081 46948
+            <span>+91 91081 46948</span>
 
           </a>
 
@@ -224,7 +206,7 @@ function Footer() {
 
             <FaWhatsapp />
 
-            WhatsApp
+            <span>WhatsApp</span>
 
           </a>
 
@@ -232,9 +214,10 @@ function Footer() {
 
             <FaEnvelope />
 
-            info@rcubeelectrical.in
+            <span>info@rcubeelectrical.in</span>
 
           </a>
+
           <a
             href="https://maps.google.com/?q=H.No.7-3/1A/303,Shivam Elite,Suncity,Hyderabad"
             target="_blank"
@@ -243,16 +226,21 @@ function Footer() {
 
             <FaMapMarkerAlt />
 
-            Hyderabad, Telangana
+            <span>Hyderabad, Telangana</span>
 
           </a>
+
           <div className="branch-info">
 
-  <FaMapMarkerAlt />
+            <FaMapMarkerAlt />
 
-  <span>Branches: Bangalore and Mumbai</span>
+            <span>
+              Branches:
+              <br />
+              Bangalore & Mumbai
+            </span>
 
-</div>
+          </div>
 
         </div>
 
@@ -263,10 +251,8 @@ function Footer() {
       <div className="footer-bottom">
 
         <p>
-
           © 2026 RCube Electrical & Engineers.
           All Rights Reserved.
-
         </p>
 
         <p>
@@ -288,14 +274,14 @@ function Footer() {
 
       </div>
 
-      {/* ================= SCROLL TO TOP ================= */}
+      {/* ================= SCROLL TOP ================= */}
 
       <button
         className="scroll-top"
         onClick={() =>
           window.scrollTo({
-            top:0,
-            behavior:"smooth",
+            top: 0,
+            behavior: "smooth",
           })
         }
       >
