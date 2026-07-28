@@ -1,227 +1,191 @@
-.clients{
-
-    padding:100px 0;
-
-    background:#ffffff;
-
+.clients {
+  padding: 100px 0;
+  background: #ffffff;
+  overflow: hidden;
 }
 
-.clients-heading{
+/* ==========================
+        SECTION TITLE
+========================== */
 
-    text-align:center;
-
-    margin-bottom:60px;
-
+.clients-heading {
+  text-align: center;
+  margin-bottom: 60px;
 }
 
-.clients-heading span{
-
-    color:#C8A46A;
-
-    letter-spacing:4px;
-
-    font-size:14px;
-
-    font-weight:700;
-
+.clients-heading span {
+  display: inline-block;
+  color: #c8a46a;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 }
 
-.clients-heading h2{
-
-    margin-top:15px;
-
-    font-size:42px;
-
-    color:#111827;
-
+.clients-heading h2 {
+  margin: 15px 0;
+  font-size: 42px;
+  color: #111827;
+  font-weight: 700;
 }
 
-/* =======================
+.clients-heading p {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #6b7280;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* ==========================
         SLIDER
-======================= */
+========================== */
 
-.clients-slider{
+.clients-slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-top: 45px;
+}
 
-    width:100%;
+.clients-track {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  gap: 35px;
+  animation: scrollLeft 35s linear infinite;
+  will-change: transform;
+}
 
-    overflow:hidden;
+.clients-slider:hover .clients-track {
+  animation-play-state: paused;
+}
 
-    position:relative;
+/* Second Row */
 
-    margin-top:40px;
+.clients-slider.reverse .clients-track {
+  animation: scrollRight 35s linear infinite;
+}
+
+/* ==========================
+        CARD
+========================== */
+
+.client-logo {
+  width: 220px;
+  height: 120px;
+  background: #ffffff;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-shrink: 0;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+  transition: 0.35s ease;
+}
+
+.client-logo:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 22px 45px rgba(0, 0, 0, 0.15);
+}
+
+.client-logo img {
+  max-width: 150px;
+  max-height: 80px;
+  width: 100%;
+  object-fit: contain;
+  transition: 0.35s;
+}
+
+.client-logo:hover img {
+  transform: scale(1.08);
+}
+
+/* ==========================
+        ANIMATION
+========================== */
+
+@keyframes scrollLeft {
+
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
 
 }
 
-.clients-track{
+@keyframes scrollRight {
 
-    display:flex;
+  from {
+    transform: translateX(-50%);
+  }
 
-    align-items:center;
-
-    gap:35px;
-
-    width:max-content;
-
-    animation:scrollClients 30s linear infinite;
+  to {
+    transform: translateX(0);
+  }
 
 }
 
-.clients-slider:hover .clients-track{
+/* ==========================
+        RESPONSIVE
+========================== */
 
-    animation-play-state:paused;
+@media (max-width: 992px) {
 
-}
+  .client-logo {
+    width: 180px;
+    height: 100px;
+  }
 
-/* =======================
-        LOGO CARD
-======================= */
-
-.client-logo{
-
-    width:220px;
-
-    height:120px;
-
-    margin:0 20px;
-
-    background:#ffffff;
-
-    border-radius:18px;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    padding:20px;
-
-    box-shadow:0 12px 35px rgba(0,0,0,.08);
-
-    transition:.35s ease;
+  .client-logo img {
+    max-width: 120px;
+    max-height: 65px;
+  }
 
 }
 
-.client-logo:hover{
+@media (max-width: 768px) {
 
-    transform:translateY(-8px);
+  .clients {
+    padding: 70px 0;
+  }
 
-    box-shadow:0 22px 45px rgba(0,0,0,.15);
+  .clients-heading {
+    margin-bottom: 40px;
+  }
 
-}
+  .clients-heading h2 {
+    font-size: 30px;
+  }
 
-/* =======================
-        IMAGE
-======================= */
+  .clients-heading span {
+    font-size: 12px;
+    letter-spacing: 3px;
+  }
 
-.client-logo img{
+  .clients-heading p {
+    font-size: 15px;
+    padding: 0 18px;
+  }
 
-    width:100%;
+  .clients-track {
+    gap: 20px;
+    animation-duration: 22s;
+  }
 
-    max-width:150px;
+  .client-logo {
+    width: 150px;
+    height: 90px;
+    padding: 15px;
+  }
 
-    max-height:80px;
-
-    object-fit:contain;
-
-    transition:.35s ease;
-
-}
-
-.client-logo:hover img{
-
-    transform:scale(1.08);
-
-}
-
-/* =======================
-        AUTO SCROLL
-======================= */
-
-@keyframes scrollClients{
-
-    0%{
-
-        transform:translateX(0);
-
-    }
-
-    100%{
-
-        transform:translateX(-50%);
-
-    }
-
-}
-
-/* =======================
-        MOBILE
-======================= */
-
-@media(max-width:992px){
-
-.client-logo{
-
-    width:180px;
-
-    height:100px;
-
-}
-
-.client-logo img{
-
-    max-width:120px;
-
-    max-height:65px;
-
-}
-
-}
-
-@media(max-width:768px){
-
-.clients{
-
-    padding:70px 0;
-
-}
-
-.clients-heading h2{
-
-    font-size:32px;
-
-}
-
-.clients-heading span{
-
-    font-size:12px;
-
-}
-
-.client-logo{
-
-    width:150px;
-
-    height:90px;
-
-    margin:0 12px;
-
-}
-
-.client-logo img{
-
-    max-width:100px;
-
-    max-height:55px;
-
-}
-
-.clients-track{
-
-    gap:20px;
-
-    animation-duration:22s;
-
-}
+  .client-logo img {
+    max-width: 100px;
+    max-height: 55px;
+  }
 
 }

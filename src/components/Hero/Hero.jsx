@@ -106,8 +106,8 @@ function Hero() {
                 <h1>
                   Complete Electrical,
                   <br />
-                  Fire Alarm &
-                  CCTV Solutions
+                   MEP  &
+                   ELV Solutions
                 </h1>
 
                 <p>

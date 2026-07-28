@@ -27,21 +27,13 @@
 ========================================== */
 
 .services-wrapper{
-
     width:90%;
-
-    max-width:1450px;
-
+    max-width:1500px;
     margin:auto;
-
     display:grid;
-
     grid-template-columns:repeat(5,1fr);
-
     position:relative;
-
     border-left:1px solid #E2DDD6;
-
 }
 
 /* ==========================================
@@ -49,15 +41,10 @@
 ========================================== */
 
 .service-card{
-
     position:relative;
-
     padding:0 34px 50px;
-
     border-right:1px solid #E2DDD6;
-
     transition:.45s;
-
 }
 
 /* ==========================================
@@ -65,33 +52,43 @@
 ========================================== */
 
 .card-one{
-
     margin-top:0;
-
 }
 
 .card-two{
-
     margin-top:90px;
-
 }
 
 .card-three{
-
     margin-top:0;
-
 }
 
 .card-four{
-
     margin-top:90px;
-
 }
 
 .card-five{
-
     margin-top:0;
+}
 
+.card-six{
+    margin-top:90px;
+}
+
+.card-seven{
+    margin-top:0;
+}
+
+.card-eight{
+    margin-top:90px;
+}
+
+.card-nine{
+    margin-top:0;
+}
+
+.card-ten{
+    margin-top:90px;
 }
 
 /* ==========================================
@@ -99,15 +96,10 @@
 ========================================== */
 
 .service-number{
-
     color:#B89668;
-
     font-size:28px;
-
     font-weight:300;
-
     margin-bottom:40px;
-
 }
 
 /* ==========================================
@@ -115,17 +107,11 @@
 ========================================== */
 
 .service-card h3{
-
     color:#1F2329;
-
     font-size:28px;
-
     line-height:1.25;
-
     font-weight:500;
-
     margin-bottom:35px;
-
 }
 
 /* ==========================================
@@ -133,19 +119,12 @@
 ========================================== */
 
 .service-card img{
-
     width:100%;
-
     height:170px;
-
     object-fit:cover;
-
     border-radius:16px;
-
     margin-bottom:35px;
-
     transition:.5s;
-
 }
 
 /* ==========================================
@@ -153,68 +132,42 @@
 ========================================== */
 
 .service-card p{
-
     color:#666;
-
     font-size:15px;
-
     line-height:2;
-
-    margin-bottom:45px;
-
+    margin-bottom:25px;
 }
 /* ==========================================
    BUTTON
 ========================================== */
 
 .service-card button{
-
     width:52px;
-
     height:52px;
-
     border-radius:50%;
-
     border:1px solid #D9D4CC;
-
     background:#fff;
-
     color:#1F2329;
-
     display:flex;
-
     align-items:center;
-
     justify-content:center;
-
     cursor:pointer;
-
     transition:.45s ease;
-
     font-size:14px;
-
 }
 
 .service-card button svg{
-
     transition:.45s;
-
 }
 
 .service-card:hover button{
-
     background:#B89668;
-
     color:#fff;
-
     border-color:#B89668;
-
 }
 
 .service-card:hover button svg{
-
     transform:translateX(4px);
-
 }
 
 /* ==========================================
@@ -222,55 +175,36 @@
 ========================================== */
 
 .service-card{
-
     transition:.45s ease;
-
 }
 
 .service-card:hover{
-
     transform:translateY(-15px);
-
 }
 
 .service-card:hover img{
-
     transform:scale(1.08);
-
 }
 
 .service-card:hover h3{
-
     color:#B89668;
-
 }
 
 /* Bottom Gold Line */
 
 .service-card::after{
-
     content:"";
-
     position:absolute;
-
     left:0;
-
     bottom:0;
-
     width:0;
-
     height:3px;
-
     background:#B89668;
-
     transition:.45s;
-
 }
 
 .service-card:hover::after{
-
     width:100%;
-
 }
 
 /* ==========================================
@@ -278,139 +212,154 @@
 ========================================== */
 
 .service-card{
-
     opacity:0;
-
     animation:fadeUp .8s ease forwards;
-
 }
 
-.card-one{
-
-    animation-delay:.1s;
-
-}
-
-.card-two{
-
-    animation-delay:.25s;
-
-}
-
-.card-three{
-
-    animation-delay:.4s;
-
-}
-
-.card-four{
-
-    animation-delay:.55s;
-
-}
-
-.card-five{
-
-    animation-delay:.7s;
-
-}
+.card-one{animation-delay:.1s;}
+.card-two{animation-delay:.25s;}
+.card-three{animation-delay:.4s;}
+.card-four{animation-delay:.55s;}
+.card-five{animation-delay:.7s;}
+.card-six{animation-delay:.85s;}
+.card-seven{animation-delay:1s;}
+.card-eight{animation-delay:1.15s;}
+.card-nine{animation-delay:1.3s;}
+.card-ten{animation-delay:1.45s;}
 
 @keyframes fadeUp{
 
 from{
-
 opacity:0;
-
 transform:translateY(60px);
-
 }
 
 to{
-
 opacity:1;
-
 transform:translateY(0);
-
 }
 
 }
+
 /* ==========================================
-   PREMIUM SPACING (REFERENCE STYLE)
+   PREMIUM SPACING
 ========================================== */
 
-/* Card Heights */
-
 .card-one{
-
     padding-top:20px;
-
 }
 
 .card-two{
-
     padding-top:110px;
-
 }
 
 .card-three{
-
     padding-top:20px;
-
 }
 
 .card-four{
-
     padding-top:110px;
-
 }
 
 .card-five{
-
     padding-top:20px;
+}
 
+.card-six{
+    padding-top:110px;
+}
+
+.card-seven{
+    padding-top:20px;
+}
+
+.card-eight{
+    padding-top:110px;
+}
+
+.card-nine{
+    padding-top:20px;
+}
+
+.card-ten{
+    padding-top:110px;
 }
 
 /* Image Size */
 
 .service-card img{
-
     width:100%;
-
     max-width:220px;
-
     height:145px;
-
     object-fit:cover;
-
     border-radius:14px;
-
 }
 
 /* Description Width */
 
 .service-card p{
-
     max-width:220px;
-
 }
-
 /* ==========================================
    RESPONSIVE
 ========================================== */
 
-@media(max-width:1200px){
+@media(max-width:1400px){
 
 .services-wrapper{
+grid-template-columns:repeat(5,1fr);
+width:95%;
+}
 
-grid-template-columns:repeat(3,1fr);
+.service-card{
+padding:0 22px 40px;
+}
+
+.service-card h3{
+font-size:24px;
+}
+
+.service-card p{
+font-size:14px;
+line-height:1.9;
+}
 
 }
 
+@media(max-width:1200px){
+
+.services-wrapper{
+grid-template-columns:repeat(3,1fr);
+border-left:none;
+gap:40px;
+}
+
+.service-card{
+border:1px solid #E5E2DB;
+border-radius:18px;
+padding:35px;
+background:#fff;
+}
+
+.card-one,
 .card-two,
-.card-four{
+.card-three,
+.card-four,
+.card-five,
+.card-six,
+.card-seven,
+.card-eight,
+.card-nine,
+.card-ten{
 
-margin-top:60px;
+margin-top:0;
+padding-top:35px;
 
+}
+
+.service-card img{
+max-width:100%;
+height:210px;
 }
 
 }
@@ -418,97 +367,76 @@ margin-top:60px;
 @media(max-width:992px){
 
 .services{
-
 padding:90px 0;
-
 }
 
 .services-wrapper{
-
 grid-template-columns:repeat(2,1fr);
-
-border-left:none;
-
+gap:30px;
 }
 
 .service-card{
-
-border:1px solid #E5E2DB;
-
-margin-bottom:30px;
-
-padding:35px;
-
+padding:30px;
 }
 
-.card-one,
-.card-two,
-.card-three,
-.card-four,
-.card-five{
-
-margin-top:0;
-
-padding-top:35px;
-
+.service-card h3{
+font-size:24px;
 }
 
 .service-card img{
-
-max-width:100%;
-
 height:190px;
+}
 
+.service-card p{
+font-size:14px;
+line-height:1.8;
+max-width:100%;
 }
 
 }
 
 @media(max-width:768px){
 
+.services{
+padding:80px 0;
+}
+
 .services-wrapper{
-
 grid-template-columns:1fr;
-
+gap:25px;
 }
 
 .services-title{
-
 margin-bottom:60px;
-
 }
 
 .services-title span{
-
-letter-spacing:5px;
-
 font-size:12px;
-
+letter-spacing:5px;
 }
 
 .service-card{
-
-padding:30px;
-
+padding:28px;
 }
 
 .service-card h3{
-
-font-size:26px;
-
-}
-
-.service-card p{
-
-font-size:15px;
-
-line-height:1.8;
-
+font-size:24px;
 }
 
 .service-card img{
+height:220px;
+max-width:100%;
+}
 
-height:200px;
+.service-card p{
+font-size:15px;
+line-height:1.8;
+max-width:100%;
+}
 
+.service-number{
+font-size:24px;
+margin-bottom:25px;
 }
 
 }
@@ -516,27 +444,38 @@ height:200px;
 @media(max-width:480px){
 
 .services{
-
 padding:70px 0;
+}
 
+.services-wrapper{
+width:92%;
+}
+
+.service-card{
+padding:22px;
 }
 
 .service-card h3{
-
-font-size:24px;
-
+font-size:22px;
 }
 
 .service-card img{
-
 height:180px;
+border-radius:12px;
+}
 
+.service-card p{
+font-size:14px;
+line-height:1.8;
 }
 
 .service-number{
+font-size:20px;
+}
 
-font-size:22px;
-
+.services-title span{
+letter-spacing:3px;
+font-size:11px;
 }
 
 }

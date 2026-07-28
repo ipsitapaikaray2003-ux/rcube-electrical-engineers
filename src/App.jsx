@@ -17,6 +17,7 @@ import Consultation from "./pages/Consultation/Consultation";
 import QuoteRequest from "./pages/QuoteRequest/QuoteRequest";
 import Support from "./pages/Support/Support";
 import Careers from "./pages/Careers/Careers";
+import Leadership from "./pages/Leadership/Leadership";
 function App() {
   return (
     <BrowserRouter>
@@ -52,6 +53,7 @@ function App() {
   element={<Support />}
 />
 <Route path="/careers" element={<Careers />} />
+<Route path="/leadership" element={<Leadership />} />
 
       </Routes>
     </BrowserRouter>

@@ -38,10 +38,10 @@ function AboutPreview() {
 
           {/* Read More Button */}
 
-          <Link to="/about" className="about-btn">
-            READ MORE
-            <FaArrowRight />
-          </Link>
+         <Link to="/leadership" className="about-btn">
+  READ MORE
+  <FaArrowRight />
+</Link>
 
         </div>
 

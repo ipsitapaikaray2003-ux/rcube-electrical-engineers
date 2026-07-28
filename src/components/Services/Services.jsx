@@ -1,222 +1,332 @@
 import "./Services.css";
 
-import { FaArrowRight } from "react-icons/fa";
-
 import electrical from "../../assets/service-1.jpg";
+import hvac from "../../assets/service-6.jpg";
+import plumbing from "../../assets/service-7.jpg";
+import firefighting from "../../assets/service-8.jpg";
 import firealarm from "../../assets/service-2.jpg";
+import publicaddress from "../../assets/service-9.jpg";
+import networking from "../../assets/service-10.jpg";
 import cctv from "../../assets/service-3.jpg";
 import consultancy from "../../assets/service-4.jpg";
 import project from "../../assets/service-5.jpg";
 
 function Services() {
+  return (
+    <section className="services">
 
-    return (
+      <div className="services-title">
+        <span>OUR SERVICES</span>
+      </div>
 
-<section className="services">
+      <div className="services-wrapper">
 
-<div className="services-title">
+        {/* CARD 1 */}
 
-<span>OUR SERVICES</span>
+        <div className="service-card card-one">
 
-</div>
+          <div className="service-number">01</div>
 
-<div className="services-wrapper">
+          <h3>
+            Electrical
+            <br />
+            System
+          </h3>
 
-{/* CARD 1 */}
+          <img src={electrical} alt="Electrical System" />
 
-<div className="service-card card-one">
+          <p>
+            RCube Electrical & Engineers delivers complete electrical system
+            solutions for commercial, industrial and infrastructure projects.
+            Our services include power distribution, electrical installations,
+            cable laying, panel erection and system testing with complete
+            compliance to industry standards.
+          </p>
 
-<div className="service-number">
+          <p>
+            Our experienced engineering team focuses on safety, energy
+            efficiency and long-term reliability in every project we execute.
+            From planning and installation to testing and commissioning, we
+            provide dependable electrical solutions that ensure uninterrupted
+            operations and maximum customer satisfaction.
+          </p>
 
-01
+        </div>
 
-</div>
+        {/* CARD 2 */}
 
-<h3>
+        <div className="service-card card-two">
 
-Electrical
+          <div className="service-number">02</div>
 
-<br/>
+          <h3>
+            HVAC
+            <br />
+            System
+          </h3>
 
-Systems
+          <img src={hvac} alt="HVAC System" />
 
-</h3>
+          <p>
+            We provide complete HVAC solutions including heating,
+            ventilation and air conditioning systems for commercial,
+            industrial and institutional facilities. Every installation is
+            designed to deliver maximum comfort and operational efficiency.
+          </p>
 
-<img src={electrical} alt="" />
+          <p>
+            Our engineers design, install and commission energy-efficient
+            HVAC systems that improve indoor air quality while reducing
+            operating costs. Every solution is customized according to the
+            client's building requirements and international standards.
+          </p>
 
-<p>
+        </div>
 
-Complete electrical installation,
-power distribution and low voltage
-solutions for commercial projects.
+        {/* CARD 3 */}
 
-</p>
+        <div className="service-card card-three">
 
-<button>
+          <div className="service-number">03</div>
 
-<FaArrowRight/>
+          <h3>
+            Plumbing
+            <br />
+            System
+          </h3>
 
-</button>
+          <img src={plumbing} alt="Plumbing System" />
 
-</div>
+          <p>
+            We deliver complete plumbing solutions including water supply,
+            drainage, sanitary systems and piping installations for
+            residential, commercial and industrial developments with
+            high-quality engineering standards.
+          </p>
 
-{/* CARD 2 */}
+          <p>
+            Our experienced professionals ensure durable piping systems,
+            efficient water management and timely project execution.
+            Every installation is carefully tested to deliver reliable
+            long-term performance with minimal maintenance.
+          </p>
 
-<div className="service-card card-two">
+        </div>
 
-<div className="service-number">
+        {/* CARD 4 */}
 
-02
+        <div className="service-card card-four">
 
-</div>
+          <div className="service-number">04</div>
 
-<h3>
+          <h3>
+            Fire Fighting
+            <br />
+            System
+          </h3>
 
-Fire Alarm
+          <img src={firefighting} alt="Fire Fighting System" />
 
-<br/>
+          <p>
+            We provide advanced fire fighting systems including hydrants,
+            sprinklers, fire pumps and suppression systems for commercial,
+            industrial and high-rise buildings with complete safety
+            compliance.
+          </p>
 
-Systems
+          <p>
+            Our engineering team ensures proper design, installation,
+            testing and commissioning of every fire protection system.
+            We help safeguard lives, valuable assets and critical
+            infrastructure through dependable fire safety solutions.
+          </p>
 
-</h3>
+        </div>
 
-<img src={firealarm} alt="" />
+        {/* CARD 5 */}
 
-<p>
+        <div className="service-card card-five">
 
-Advanced fire alarm and life
-safety systems designed for
-modern infrastructures.
+          <div className="service-number">05</div>
 
-</p>
+          <h3>
+            Fire Alarm
+            <br />
+            System
+          </h3>
 
-<button>
+          <img src={firealarm} alt="Fire Alarm System" />
 
-<FaArrowRight/>
+          <p>
+            We design and install intelligent fire alarm systems that
+            provide early fire detection, rapid emergency response and
+            complete life safety for commercial, industrial and
+            residential buildings.
+          </p>
 
-</button>
+          <p>
+            Our certified engineers perform professional installation,
+            testing and commissioning while ensuring compliance with
+            national fire safety standards. Every solution is designed
+            for reliable long-term performance.
+          </p>
 
-</div>
+        </div>
+                {/* CARD 6 */}
 
-{/* CARD 3 */}
+        <div className="service-card card-six">
 
-<div className="service-card card-three">
+          <div className="service-number">06</div>
 
-<div className="service-number">
+          <h3>
+            Public Address
+            <br />
+            System
+          </h3>
 
-03
+          <img src={publicaddress} alt="Public Address System" />
 
-</div>
+          <p>
+            We provide advanced public address systems for offices,
+            industries, educational institutions and commercial buildings.
+            Our solutions ensure clear voice communication for routine
+            announcements and emergency evacuation procedures.
+          </p>
 
-<h3>
+          <p>
+            Our team designs and installs reliable audio distribution
+            systems using high-quality equipment that delivers crystal-clear
+            sound coverage. Every installation is tested to provide
+            dependable performance and long-term operational reliability.
+          </p>
 
-CCTV &
+        </div>
 
-<br/>
+        {/* CARD 7 */}
 
-Networking
+        <div className="service-card card-seven">
 
-</h3>
+          <div className="service-number">07</div>
 
-<img src={cctv} alt="" />
+          <h3>
+            Networking
+            <br />
+            System
+          </h3>
 
-<p>
+          <img src={networking} alt="Networking System" />
 
-Integrated surveillance,
-networking and monitoring
-solutions with maximum security.
+          <p>
+            We offer complete networking solutions including structured
+            cabling, LAN, WAN, fiber optic installation and server room
+            infrastructure. Our systems are designed for secure, scalable
+            and high-speed communication networks.
+          </p>
 
-</p>
+          <p>
+            Our networking experts ensure seamless connectivity, improved
+            data security and reliable communication across every business
+            environment. We deliver future-ready infrastructure that
+            supports growing operational requirements.
+          </p>
 
-<button>
+        </div>
 
-<FaArrowRight/>
+        {/* CARD 8 */}
 
-</button>
+        <div className="service-card card-eight">
 
-</div>
+          <div className="service-number">08</div>
 
-{/* CARD 4 */}
+          <h3>
+            CCTV
+            <br />
+            System
+          </h3>
 
-<div className="service-card card-four">
+          <img src={cctv} alt="CCTV System" />
 
-<div className="service-number">
+          <p>
+            Our CCTV surveillance solutions provide continuous monitoring,
+            enhanced security and complete protection for commercial,
+            industrial and residential facilities. We install advanced
+            HD and IP camera systems with centralized monitoring.
+          </p>
 
-04
+          <p>
+            Every surveillance solution is customized according to the
+            client's security requirements using modern technologies and
+            professional installation practices. We ensure maximum coverage,
+            reliability and peace of mind.
+          </p>
 
-</div>
+        </div>
 
-<h3>
+        {/* CARD 9 */}
 
-Design
+        <div className="service-card card-nine">
 
-<br/>
+          <div className="service-number">09</div>
 
-Consultancy
+          <h3>
+            MEP Design
+            <br />
+            Consultancy
+          </h3>
 
-</h3>
+          <img src={consultancy} alt="MEP Design Consultancy" />
 
-<img src={consultancy} alt="" />
+          <p>
+            RCube provides complete MEP design consultancy services covering
+            mechanical, electrical and plumbing engineering for commercial,
+            industrial and infrastructure developments. Every design is
+            prepared with technical accuracy and regulatory compliance.
+          </p>
 
-<p>
+          <p>
+            Our experienced consultants develop cost-effective, sustainable
+            and innovative engineering solutions that optimize project
+            performance. We support clients from conceptual planning through
+            detailed design and successful project execution.
+          </p>
 
-Professional engineering
-consultancy and planning for
-high-quality project execution.
+        </div>
 
-</p>
+        {/* CARD 10 */}
 
-<button>
+        <div className="service-card card-ten">
 
-<FaArrowRight/>
+          <div className="service-number">10</div>
 
-</button>
+          <h3>
+            Project
+            <br />
+            Management
+          </h3>
 
-</div>
+          <img src={project} alt="Project Management" />
 
-{/* CARD 5 */}
+          <p>
+            Our project management services cover planning, scheduling,
+            execution, quality control, supervision and final commissioning.
+            We coordinate every stage efficiently to ensure projects are
+            delivered safely, on time and within budget.
+          </p>
 
-<div className="service-card card-five">
+          <p>
+            With experienced project managers and engineering professionals,
+            we maintain the highest standards of quality throughout the
+            project lifecycle. Our systematic approach minimizes risks,
+            improves efficiency and ensures complete client satisfaction.
+          </p>
 
-<div className="service-number">
+        </div>
 
-05
+      </div>
 
-</div>
+    </section>
 
-<h3>
-
-Project
-
-<br/>
-
-Management
-
-</h3>
-
-<img src={project} alt="" />
-
-<p>
-
-End-to-end project management
-from planning to successful
-commissioning and delivery.
-
-</p>
-
-<button>
-
-<FaArrowRight/>
-
-</button>
-
-</div>
-
-</div>
-
-</section>
-
-    );
+  );
 
 }
 
