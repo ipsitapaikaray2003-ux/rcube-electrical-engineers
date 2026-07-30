@@ -38,7 +38,7 @@ function Consultation() {
 
           <p>
 
-            Get expert guidance from RCube Electrical &
+            Get expert guidance from Rcube Electrical &
             Engineers for your upcoming electrical,
             industrial and infrastructure projects.
 

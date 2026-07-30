@@ -22,7 +22,7 @@ function AboutPreview() {
           </h2>
 
           <p>
-            RCube Electrical & Engineers is a trusted engineering company
+            Rcube Electrical & Engineers is a trusted engineering company
             specializing in Electrical Systems, Fire Alarm Systems,
             CCTV, Networking, Design Consultancy and Project Management.
             We deliver reliable engineering solutions with a strong

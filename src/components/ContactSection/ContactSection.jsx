@@ -40,7 +40,7 @@ function ContactSection() {
         <div className="home-map-box">
 
           <iframe
-            title="RCube Office Location"
+            title="Rcube Office Location"
             src="https://www.google.com/maps?q=H.No.%207-3/1A/303,%20Third%20Floor,%20Shivam%20Elite,%20Above%20Union%20Bank%20of%20India,%20Chevella%20Road,%20Bhagya%20Nagar%20Colony,%20Suncity,%20Hyderabad,%20Telangana%20500091&output=embed"
             loading="lazy"
             allowFullScreen
@@ -55,7 +55,7 @@ function ContactSection() {
           <h3>Contact Details</h3>
 
           <p>
-            Reach out to RCube Electrical & Engineers for
+            Reach out to Rcube Electrical & Engineers for
             project consultation, quotations and engineering
             support.
           </p>

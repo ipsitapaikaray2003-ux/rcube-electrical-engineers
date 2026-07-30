@@ -30,7 +30,7 @@ function Contact() {
           <h1>Let's Connect</h1>
 
           <p>
-            Reach out to RCube Electrical & Engineers for
+            Reach out to Rcube Electrical & Engineers for
             reliable engineering solutions.
           </p>
 
@@ -311,7 +311,7 @@ function Contact() {
           </h2>
 
           <p>
-            Partner with RCube Electrical & Engineers for reliable,
+            Partner with Rcube Electrical & Engineers for reliable,
             innovative and high-quality engineering solutions
             tailored to your business needs.
           </p>

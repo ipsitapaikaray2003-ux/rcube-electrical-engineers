@@ -55,7 +55,7 @@ function AboutPage() {
             </h2>
 
             <p>
-              RCube Electrical & Engineers delivers complete engineering
+              Rcube Electrical & Engineers delivers complete engineering
               solutions with expertise in Electrical Works, Fire Alarm
               Systems, CCTV Surveillance, Networking, Design Consultancy
               and Project Management.

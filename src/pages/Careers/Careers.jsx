@@ -37,7 +37,7 @@ function Careers() {
 
             Build Your Career
             <br />
-            With RCube
+            With Rcube
 
           </h1>
 
@@ -77,7 +77,7 @@ function Careers() {
 
             <p>
 
-              At RCube Electrical & Engineers, we believe our
+              At Rcube Electrical & Engineers, we believe our
               people are our greatest strength. We offer an
               environment where innovation, teamwork and
               professional growth go hand in hand.
@@ -502,7 +502,7 @@ function Careers() {
               04
             </div>
 
-            <h3>Join RCube</h3>
+            <h3>Join Rcube</h3>
 
             <p>
               Welcome to our engineering family

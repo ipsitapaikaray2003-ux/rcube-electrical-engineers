@@ -65,7 +65,7 @@ project with integrity, innovation and customer commitment.
 
 <h5>Qualification</h5>
 
-<span>Electrical Engineer</span>
+<span>Bachelor of Engineering</span>
 
 </div>
 
@@ -82,7 +82,7 @@ project with integrity, innovation and customer commitment.
 <p>
 
 Ravi Rathod is an Electrical Engineer with over 15 years of
-experience in the MEP industry. He founded RCube Electrical &
+experience in the MEP industry. He founded Rcube Electrical &
 Engineers in 2021 with a vision to provide efficient, safe and
 cost-effective engineering solutions for commercial, industrial
 and infrastructure projects.
@@ -101,7 +101,7 @@ long-term business relationships.
 
 <p>
 
-Today he continues to guide RCube towards innovation,
+Today he continues to guide Rcube towards innovation,
 sustainability and engineering excellence while building a
 high-performing team capable of delivering world-class MEP
 solutions.
@@ -168,7 +168,7 @@ solutions.
             informed about project progress, anticipated risks and
             effective mitigation strategies. His commitment to timely
             delivery and engineering excellence continues to strengthen
-            RCube's reputation in the MEP industry.
+            Rcube's reputation in the MEP industry.
 
           </p>
 
@@ -229,7 +229,7 @@ solutions.
           <p>
 
             Her dedication, reliability and collaborative work ethic make
-            her an integral member of the RCube team. She continues to
+            her an integral member of the Rcube team. She continues to
             support the organization's growth while strengthening internal
             processes and delivering consistent operational excellence.
 

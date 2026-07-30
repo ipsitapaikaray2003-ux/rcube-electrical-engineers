@@ -56,7 +56,7 @@ function CompanyProfile() {
             </h2>
 
             <p>
-              RCube Electrical & Engineers is a trusted engineering company
+              Rcube Electrical & Engineers is a trusted engineering company
               specializing in Electrical Works, Fire Alarm Systems, CCTV,
               Networking, Design Consultancy and Project Management.
             </p>

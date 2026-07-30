@@ -107,7 +107,7 @@ function Footer() {
           />
 
           <p>
-            RCube Electrical & Engineers provides complete
+            Rcube Electrical & Engineers provides complete
             electrical engineering solutions for commercial,
             industrial and infrastructure projects with
             quality, innovation and commitment.
@@ -251,7 +251,7 @@ function Footer() {
       <div className="footer-bottom">
 
         <p>
-          © 2026 RCube Electrical & Engineers.
+          © 2026 Rcube Electrical & Engineers.
           All Rights Reserved.
         </p>
 

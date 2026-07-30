@@ -52,7 +52,7 @@ function Hero() {
               <div className="hero-text">
 
                 <span className="hero-tag">
-                  Welcome to RCube Electrical & Engineers
+                  Welcome to Rcube Electrical & Engineers
                 </span>
 
                 <h1>
@@ -156,7 +156,7 @@ function Hero() {
                 </h1>
 
                 <p>
-                  RCube Electrical & Engineers
+                  Rcube Electrical & Engineers
                   delivers complete turnkey
                   Electrical & Engineering
                   solutions with innovation,

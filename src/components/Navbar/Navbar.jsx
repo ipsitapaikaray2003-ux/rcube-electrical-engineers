@@ -181,7 +181,7 @@ function Navbar() {
 
               <li>
                 <NavLink to="/why-choose-us" onClick={closeMenu}>
-                  Why Choose RCube
+                  Why Choose Rcube
                 </NavLink>
               </li>
 

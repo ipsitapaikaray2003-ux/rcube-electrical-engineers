@@ -424,7 +424,7 @@ function Support() {
 
             <h3>
 
-              RCube Electrical &
+              Rcube Electrical &
               Engineers
 
             </h3>

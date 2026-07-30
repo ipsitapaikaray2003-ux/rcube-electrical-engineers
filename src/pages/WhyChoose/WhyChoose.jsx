@@ -28,7 +28,7 @@ function WhyChoose() {
         <div className="why-overlay">
           <span>ABOUT RCUBE</span>
 
-          <h1>Why Choose RCube</h1>
+          <h1>Why Choose Rcube</h1>
 
           <p>
             Delivering engineering excellence with quality, innovation and
