@@ -103,11 +103,11 @@ function Footer() {
 
           <img
             src={logo}
-            alt="RCube Logo"
+            alt="Darshikha Infrastructure Logo"
           />
 
           <p>
-            Rcube Electrical & Engineers provides complete
+            Darshikha Infrastructure Pvt Ltd provides complete
             electrical engineering solutions for commercial,
             industrial and infrastructure projects with
             quality, innovation and commitment.
@@ -251,7 +251,7 @@ function Footer() {
       <div className="footer-bottom">
 
         <p>
-          © 2026 Rcube Electrical & Engineers.
+          © 2026 Darshikha Infrastructure Pvt Ltd.
           All Rights Reserved.
         </p>
 

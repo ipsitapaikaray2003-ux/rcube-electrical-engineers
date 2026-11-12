@@ -26,9 +26,9 @@ function WhyChoose() {
         style={{ backgroundImage: `url(${hero})` }}
       >
         <div className="why-overlay">
-          <span>ABOUT RCUBE</span>
+          <span>ABOUT DARSHIKHA INFRASTRUCTURE</span>
 
-          <h1>Why Choose Rcube</h1>
+          <h1>Why Choose Darshikha Infrastructure</h1>
 
           <p>
             Delivering engineering excellence with quality, innovation and
@@ -45,7 +45,7 @@ function WhyChoose() {
 
           <span>OUR ADVANTAGES</span>
 
-          <h2>Why Clients Trust RCube</h2>
+          <h2>Why Clients Trust Darshikha Infrastructure</h2>
 
         </div>
 

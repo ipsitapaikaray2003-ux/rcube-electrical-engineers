@@ -18,11 +18,11 @@ function AboutPreview() {
           </span>
 
           <h2>
-            ABOUT RCUBE
+            ABOUT DARSHIKHA INFRASTRUCTURE
           </h2>
 
           <p>
-            Rcube Electrical & Engineers is a trusted engineering company
+            Darshikha Infrastructure Pvt Ltd is a trusted engineering company
             specializing in Electrical Systems, Fire Alarm Systems,
             CCTV, Networking, Design Consultancy and Project Management.
             We deliver reliable engineering solutions with a strong
@@ -51,7 +51,7 @@ function AboutPreview() {
 
           <img
             src={aboutImg}
-            alt="About RCube"
+            alt="About Darshikha Infrastructure"
           />
 
         </div>

@@ -412,7 +412,7 @@ function Support() {
         <div className="support-map-wrapper">
 
           <iframe
-            title="RCube Electrical & Engineers"
+            title="Darshikha Infrastructure Pvt Ltd"
             src="https://www.google.com/maps?q=H.No.%207-3/1A/303,%20Third%20Floor,%20Shivam%20Elite,%20Above%20Union%20Bank%20of%20India,%20Chevella%20Road,%20Bhagya%20Nagar%20Colony,%20Suncity,%20Hyderabad,%20Telangana%20500091&output=embed"
             loading="lazy"
             allowFullScreen
@@ -424,8 +424,8 @@ function Support() {
 
             <h3>
 
-              Rcube Electrical &
-              Engineers
+              Darshikha Infrastructure
+              Pvt Ltd
 
             </h3>
 
@@ -478,7 +478,7 @@ function Support() {
 
         <div className="support-feature-heading">
 
-          <span>WHY CHOOSE RCUBE</span>
+          <span>WHY CHOOSE DARSHIKHA INFRASTRUCTURE</span>
 
           <h2>
 

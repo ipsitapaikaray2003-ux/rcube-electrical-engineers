@@ -19,7 +19,7 @@ function CompanyProfile() {
       >
         <div className="company-overlay">
 
-          <span>ABOUT RCUBE</span>
+          <span>ABOUT DARSHIKHA INFRASTRUCTURE</span>
 
           <h1>Company Profile</h1>
 
@@ -41,7 +41,7 @@ function CompanyProfile() {
 
             <img
               src={company}
-              alt="RCube"
+              alt="Darshikha Infrastructure"
             />
 
           </div>
@@ -56,7 +56,7 @@ function CompanyProfile() {
             </h2>
 
             <p>
-              Rcube Electrical & Engineers is a trusted engineering company
+              Darshikha Infrastructure Pvt Ltd is a trusted engineering company
               specializing in Electrical Works, Fire Alarm Systems, CCTV,
               Networking, Design Consultancy and Project Management.
             </p>

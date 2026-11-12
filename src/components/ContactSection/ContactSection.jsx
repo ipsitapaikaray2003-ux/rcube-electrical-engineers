@@ -40,7 +40,7 @@ function ContactSection() {
         <div className="home-map-box">
 
           <iframe
-            title="Rcube Office Location"
+            title="Darshikha Infrastructure Office Location"
             src="https://www.google.com/maps?q=H.No.%207-3/1A/303,%20Third%20Floor,%20Shivam%20Elite,%20Above%20Union%20Bank%20of%20India,%20Chevella%20Road,%20Bhagya%20Nagar%20Colony,%20Suncity,%20Hyderabad,%20Telangana%20500091&output=embed"
             loading="lazy"
             allowFullScreen
@@ -55,13 +55,13 @@ function ContactSection() {
           <h3>Contact Details</h3>
 
           <p>
-            Reach out to Rcube Electrical & Engineers for
+            Reach out to Darshikha Infrastructure Pvt Ltd for
             project consultation, quotations and engineering
             support.
           </p>
 
-          <div className="contact-items"></div>
-                      {/* ================= PHONE ================= */}
+          <div className="contact-items">
+            {/* ================= PHONE ================= */}
 
             <a
               href="tel:+919108146948"
@@ -71,7 +71,7 @@ function ContactSection() {
                 <FaPhoneAlt />
               </div>
 
-              <div>
+              <div className="contact-text">
                 <span>Call Us</span>
                 <h4>+91 91081 46948</h4>
               </div>
@@ -87,7 +87,7 @@ function ContactSection() {
                 <FaEnvelope />
               </div>
 
-              <div>
+              <div className="contact-text">
                 <span>Email Us</span>
                 <h4>info@rcubeelectrical.in</h4>
               </div>
@@ -105,7 +105,7 @@ function ContactSection() {
                 <FaWhatsapp />
               </div>
 
-              <div>
+              <div className="contact-text">
                 <span>WhatsApp</span>
                 <h4>Chat With Our Team</h4>
               </div>
@@ -123,7 +123,7 @@ function ContactSection() {
                 <FaMapMarkerAlt />
               </div>
 
-              <div>
+              <div className="contact-text">
                 <span>Head Office</span>
                 <h4>Hyderabad, Telangana</h4>
               </div>
@@ -137,7 +137,7 @@ function ContactSection() {
                 <FaClock />
               </div>
 
-              <div>
+              <div className="contact-text">
                 <span>Working Hours</span>
                 <h4>Monday – Saturday</h4>
                 <small>09:00 AM – 06:00 PM</small>
@@ -157,7 +157,7 @@ function ContactSection() {
 
         </div>
 
-    
+      </div>
 
     </section>
   );

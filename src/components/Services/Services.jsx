@@ -36,7 +36,7 @@ function Services() {
           <img src={electrical} alt="Electrical System" />
 
           <p>
-            Rcube Electrical & Engineers delivers complete electrical system
+            Darshikha Infrastructure Pvt Ltd delivers complete electrical system
             solutions for commercial, industrial and infrastructure projects.
             Our services include power distribution, electrical installations,
             cable laying, panel erection and system testing with complete
@@ -277,7 +277,7 @@ function Services() {
           <img src={consultancy} alt="MEP Design Consultancy" />
 
           <p>
-            Rcube provides complete MEP design consultancy services covering
+            Darshikha Infrastructure provides complete MEP design consultancy services covering
             mechanical, electrical and plumbing engineering for commercial,
             industrial and infrastructure developments. Every design is
             prepared with technical accuracy and regulatory compliance.

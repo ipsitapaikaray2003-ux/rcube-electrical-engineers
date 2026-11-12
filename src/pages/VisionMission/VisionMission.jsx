@@ -20,7 +20,7 @@ function VisionMission() {
       >
         <div className="vision-overlay">
 
-          <span>ABOUT RCUBE</span>
+          <span>ABOUT DARSHIKHA INFRASTRUCTURE</span>
 
           <h1>Vision & Mission</h1>
 

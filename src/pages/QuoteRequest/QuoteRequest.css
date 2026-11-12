@@ -377,7 +377,7 @@ body{
 
 }
 
-.contact-icon{
+.contact-card .contact-icon{
 
     width:70px;
 
@@ -405,7 +405,7 @@ body{
 
 }
 
-.contact-card:hover .contact-icon{
+.contact-card:hover .contact-card .contact-icon{
 
     background:#111827;
 
@@ -548,7 +548,7 @@ body{
 
 }
 
-.contact-icon{
+.contact-card .contact-icon{
 
     width:70px;
 
@@ -576,7 +576,7 @@ body{
 
 }
 
-.contact-card:hover .contact-icon{
+.contact-card:hover .contact-card .contact-icon{
 
     background:#111827;
 

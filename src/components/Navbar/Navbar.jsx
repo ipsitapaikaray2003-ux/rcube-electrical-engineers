@@ -128,7 +128,7 @@ function Navbar() {
 
           <img
             src={logo}
-            alt="RCube Logo"
+            alt="Darshikha Infrastructure Logo"
           />
 
         </NavLink>
@@ -181,7 +181,7 @@ function Navbar() {
 
               <li>
                 <NavLink to="/why-choose-us" onClick={closeMenu}>
-                  Why Choose Rcube
+                  Why Choose Darshikha Infrastructure
                 </NavLink>
               </li>
 

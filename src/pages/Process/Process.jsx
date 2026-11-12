@@ -72,7 +72,7 @@ function Process() {
       >
         <div className="process-overlay">
 
-          <span>ABOUT RCUBE</span>
+          <span>ABOUT DARSHIKHA INFRASTRUCTURE</span>
 
           <h1>Our Process</h1>
 

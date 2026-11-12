@@ -37,7 +37,7 @@ function Careers() {
 
             Build Your Career
             <br />
-            With Rcube
+            With Darshikha Infrastructure
 
           </h1>
 
@@ -63,7 +63,7 @@ function Careers() {
 
           <div className="career-left">
 
-            <span>WHY JOIN RCUBE</span>
+            <span>WHY JOIN DARSHIKHA INFRASTRUCTURE</span>
 
             <h2>
 
@@ -77,7 +77,7 @@ function Careers() {
 
             <p>
 
-              At Rcube Electrical & Engineers, we believe our
+              At Darshikha Infrastructure Pvt Ltd, we believe our
               people are our greatest strength. We offer an
               environment where innovation, teamwork and
               professional growth go hand in hand.
@@ -502,7 +502,7 @@ function Careers() {
               04
             </div>
 
-            <h3>Join Rcube</h3>
+            <h3>Join Darshikha Infrastructure</h3>
 
             <p>
               Welcome to our engineering family

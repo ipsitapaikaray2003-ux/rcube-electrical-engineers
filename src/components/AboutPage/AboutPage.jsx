@@ -12,7 +12,7 @@ function AboutPage() {
 
         <div className="about-hero-overlay">
 
-          <span>ABOUT RCUBE</span>
+          <span>ABOUT DARSHIKHA INFRASTRUCTURE</span>
 
           <h1>
             Engineering Excellence
@@ -40,7 +40,7 @@ function AboutPage() {
 
             <img
               src={aboutImg}
-              alt="RCube"
+              alt="Darshikha Infrastructure"
             />
 
           </div>
@@ -55,7 +55,7 @@ function AboutPage() {
             </h2>
 
             <p>
-              Rcube Electrical & Engineers delivers complete engineering
+              Darshikha Infrastructure Pvt Ltd delivers complete engineering
               solutions with expertise in Electrical Works, Fire Alarm
               Systems, CCTV Surveillance, Networking, Design Consultancy
               and Project Management.

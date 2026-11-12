@@ -30,7 +30,7 @@ function Contact() {
           <h1>Let's Connect</h1>
 
           <p>
-            Reach out to Rcube Electrical & Engineers for
+            Reach out to Darshikha Infrastructure Pvt Ltd for
             reliable engineering solutions.
           </p>
 
@@ -287,7 +287,7 @@ function Contact() {
         <div className="map-wrapper">
 
           <iframe
-            title="RCube Location"
+            title="Darshikha Infrastructure Location"
             src="https://www.google.com/maps?q=16.7149,74.4500&z=15&output=embed"
             loading="lazy"
             allowFullScreen
@@ -311,7 +311,7 @@ function Contact() {
           </h2>
 
           <p>
-            Partner with Rcube Electrical & Engineers for reliable,
+            Partner with Darshikha Infrastructure Pvt Ltd for reliable,
             innovative and high-quality engineering solutions
             tailored to your business needs.
           </p>

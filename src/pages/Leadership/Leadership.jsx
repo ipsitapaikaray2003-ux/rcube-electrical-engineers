@@ -28,7 +28,7 @@ transition={{duration:.8}}
 
 <h1>
 Meet The Visionaries Behind
-RCube Electrical & Engineers
+Darshikha Infrastructure Pvt Ltd
 </h1>
 
 <p>
@@ -82,8 +82,8 @@ project with integrity, innovation and customer commitment.
 <p>
 
 Ravi Rathod is an Electrical Engineer with over 15 years of
-experience in the MEP industry. He founded Rcube Electrical &
-Engineers in 2021 with a vision to provide efficient, safe and
+experience in the MEP industry. He founded Darshikha Infrastructure
+Pvt Ltd in 2021 with a vision to provide efficient, safe and
 cost-effective engineering solutions for commercial, industrial
 and infrastructure projects.
 
@@ -101,7 +101,7 @@ long-term business relationships.
 
 <p>
 
-Today he continues to guide Rcube towards innovation,
+Today he continues to guide Darshikha Infrastructure towards innovation,
 sustainability and engineering excellence while building a
 high-performing team capable of delivering world-class MEP
 solutions.
@@ -168,7 +168,7 @@ solutions.
             informed about project progress, anticipated risks and
             effective mitigation strategies. His commitment to timely
             delivery and engineering excellence continues to strengthen
-            Rcube's reputation in the MEP industry.
+            Darshikha Infrastructure's reputation in the MEP industry.
 
           </p>
 
@@ -218,7 +218,7 @@ solutions.
 
           <p>
 
-            At RCube Electrical & Engineers, she plays a vital role in
+            At Darshikha Infrastructure Pvt Ltd, she plays a vital role in
             maintaining financial discipline and ensuring the smooth
             functioning of day-to-day administrative activities. Her
             organized approach and attention to detail contribute
@@ -229,7 +229,7 @@ solutions.
           <p>
 
             Her dedication, reliability and collaborative work ethic make
-            her an integral member of the Rcube team. She continues to
+            her an integral member of the Darshikha Infrastructure team. She continues to
             support the organization's growth while strengthening internal
             processes and delivering consistent operational excellence.
 

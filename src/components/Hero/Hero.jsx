@@ -52,7 +52,7 @@ function Hero() {
               <div className="hero-text">
 
                 <span className="hero-tag">
-                  Welcome to Rcube Electrical & Engineers
+                  Welcome to Darshikha Infrastructure Pvt Ltd
                 </span>
 
                 <h1>
@@ -156,7 +156,7 @@ function Hero() {
                 </h1>
 
                 <p>
-                  Rcube Electrical & Engineers
+                  Darshikha Infrastructure Pvt Ltd
                   delivers complete turnkey
                   Electrical & Engineering
                   solutions with innovation,

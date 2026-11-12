@@ -42,7 +42,7 @@ function CoreValues() {
           className="core-overlay"
           data-aos="zoom-out"
         >
-          <span>ABOUT RCUBE</span>
+          <span>ABOUT DARSHIKHA INFRASTRUCTURE</span>
 
           <h1>Core Values</h1>
 

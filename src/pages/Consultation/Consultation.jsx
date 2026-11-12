@@ -38,8 +38,8 @@ function Consultation() {
 
           <p>
 
-            Get expert guidance from Rcube Electrical &
-            Engineers for your upcoming electrical,
+            Get expert guidance from Darshikha Infrastructure
+            Pvt Ltd for your upcoming electrical,
             industrial and infrastructure projects.
 
           </p>
@@ -115,7 +115,7 @@ function Consultation() {
 
                 <p>
                   From planning to execution,
-                  RCube is with you at every step.
+                  Darshikha Infrastructure is with you at every step.
                 </p>
 
               </div>
@@ -277,7 +277,7 @@ function Consultation() {
           <div className="consultation-map">
 
             <iframe
-              title="RCube Office"
+              title="Darshikha Infrastructure Office"
               src="https://www.google.com/maps?q=H.No.%207-3/1A/303,%20Third%20Floor,%20Shivam%20Elite,%20Above%20Union%20Bank%20of%20India,%20Chevella%20Road,%20Bhagya%20Nagar%20Colony,%20Suncity,%20Hyderabad,%20Telangana%20500091&output=embed"
               loading="lazy"
               allowFullScreen
