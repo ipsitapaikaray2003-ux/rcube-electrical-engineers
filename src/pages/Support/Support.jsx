@@ -131,7 +131,7 @@ function Support() {
               {/* ================= WHATSAPP ================= */}
 
               <a
-                href="https://wa.me/919108146948"
+                href="https://wa.me/919108146948?text=Hello%20Darshikha%20Infrastructure%20Support%2C%20I%20need%20assistance%20regarding%20my%20project."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="support-contact-card"

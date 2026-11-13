@@ -251,7 +251,7 @@ function Consultation() {
               </a>
 
               <a
-                href="https://wa.me/919108146948"
+                href="https://wa.me/919108146948?text=Hello%20Darshikha%20Infrastructure%2C%20I%20would%20like%20to%20schedule%20a%20free%20project%20consultation."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact-item"

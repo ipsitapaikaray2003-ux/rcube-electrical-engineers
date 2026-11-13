@@ -564,7 +564,7 @@ function Careers() {
             </a>
 
             <a
-              href="https://wa.me/919108146948"
+              href="https://wa.me/919108146948?text=Hello%20HR%20Team%2C%20I%20am%20interested%20in%20career%20opportunities%20at%20Darshikha%20Infrastructure%20Pvt%20Ltd."
               target="_blank"
               rel="noopener noreferrer"
               className="career-contact-card"
