@@ -42,6 +42,10 @@ import designArc from "../../assets/design-arc.png";
 import eleganz from "../../assets/eleganz.png";
 import interia from "../../assets/interia.png";
 import knowledgeRealityTrust from "../../assets/knowledge-reality-trust.png";
+import winwire from "../../assets/winwire.png";
+import simpliwork from "../../assets/simpliwork.png";
+import devInteriors from "../../assets/dev-interiors.png";
+import mfine from "../../assets/mfine.png";
 
 // Uncomment after adding logo files
 
@@ -80,23 +84,19 @@ function Clients() {
 
   const clientLogos = [
     tablespace,
+    simpliwork,
     satva,
     studioMasons,
+    devInteriors,
     jrdInteriors,
+    winwire,
     dearcReality,
     dwp,
     designArc,
     eleganz,
+    mfine,
     interia,
     knowledgeRealityTrust,
-
-    // Uncomment after adding logo files
-
-    // devabumi,
-    // designIcon,
-    // corker,
-    // interics,
-    // corporateSupplies,
   ];
 
   return (
