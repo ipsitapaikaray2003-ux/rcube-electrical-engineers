@@ -125,7 +125,7 @@ function Footer() {
             </a>
 
             <a
-              href="https://maps.google.com/?q=H.No.7-3/1A/303,Shivam Elite,Suncity,Hyderabad"
+              href="https://maps.google.com/?q=7-3/1A/303,+3rd+Floor,+Shivam+Elite,+Chevella+Road,+Rajendra+Nagar,+Above+Union+Bank+of+India,+Suncity,+Bandlaguda+Jagir,+Hyderabad,+Telangana+500091"
               target="_blank"
               rel="noopener noreferrer"
               title="Location"
@@ -134,7 +134,7 @@ function Footer() {
             </a>
 
             <a
-              href="mailto:info@rcubeelectrical.in"
+              href="mailto:info@darshikha.com"
               title="Email"
             >
               <FaEnvelope />
@@ -210,23 +210,32 @@ function Footer() {
 
           </a>
 
-          <a href="mailto:info@rcubeelectrical.in">
+          <a href="mailto:info@darshikha.com">
 
             <FaEnvelope />
 
-            <span>info@rcubeelectrical.in</span>
+            <span>info@darshikha.com</span>
 
           </a>
 
           <a
-            href="https://maps.google.com/?q=H.No.7-3/1A/303,Shivam Elite,Suncity,Hyderabad"
+            href="https://maps.google.com/?q=7-3/1A/303,+3rd+Floor,+Shivam+Elite,+Chevella+Road,+Rajendra+Nagar,+Above+Union+Bank+of+India,+Suncity,+Bandlaguda+Jagir,+Hyderabad,+Telangana+500091"
             target="_blank"
             rel="noopener noreferrer"
+            className="footer-address"
           >
 
             <FaMapMarkerAlt />
 
-            <span>Hyderabad, Telangana</span>
+            <span>
+              #7-3/1A/303, 3rd Floor, Shivam Elite,
+              <br />
+              Chevella Rd, Above Union Bank,
+              <br />
+              Suncity, Bandlaguda Jagir,
+              <br />
+              Hyderabad - 500091, Telangana
+            </span>
 
           </a>
 

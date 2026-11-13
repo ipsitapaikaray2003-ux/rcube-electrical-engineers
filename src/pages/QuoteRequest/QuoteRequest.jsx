@@ -183,7 +183,7 @@ function QuoteRequest()  {
             </a>
 
             <a
-              href="mailto:info@rcubeelectrical.in"
+              href="mailto:info@darshikha.com"
               className="contact-card"
             >
 
@@ -195,7 +195,7 @@ function QuoteRequest()  {
 
                 <h3>Email</h3>
 
-                <p>info@rcubeelectrical.in</p>
+                <p>info@darshikha.com</p>
 
               </div>
 
@@ -223,7 +223,7 @@ function QuoteRequest()  {
             </a>
 
             <a
-              href="https://maps.google.com/?q=H.No.+7-3/1A/303,+Third+Floor,+Shivam+Elite,+Above+Union+Bank+of+India,+Chevella+Road,+Bhagya+Nagar+Colony,+Suncity,+Hyderabad,+Telangana+500091"
+              href="https://maps.google.com/?q=7-3/1A/303,+3rd+Floor,+Shivam+Elite,+Chevella+Road,+Rajendra+Nagar,+Above+Union+Bank+of+India,+Suncity,+Bandlaguda+Jagir,+Hyderabad,+Telangana+500091"
               target="_blank"
               rel="noopener noreferrer"
               className="contact-card"
@@ -237,7 +237,7 @@ function QuoteRequest()  {
 
                 <h3>Office</h3>
 
-                <p>Hyderabad, Telangana</p>
+                <p>Shivam Elite, Suncity, Hyderabad</p>
 
               </div>
 
@@ -255,7 +255,7 @@ function QuoteRequest()  {
 
         <iframe
           title="Darshikha Infrastructure Location"
-          src="https://www.google.com/maps?q=H.No.%207-3/1A/303,%20Third%20Floor,%20Shivam%20Elite,%20Above%20Union%20Bank%20of%20India,%20Chevella%20Road,%20Bhagya%20Nagar%20Colony,%20Suncity,%20Hyderabad&output=embed"
+          src="https://www.google.com/maps?q=7-3/1A/303,+Shivam+Elite,+Above+Union+Bank+of+India,+Chevella+Road,+Rajendra+Nagar,+Suncity,+Bandlaguda+Jagir,+Hyderabad,+Telangana+500091&output=embed"
           loading="lazy"
           allowFullScreen
         ></iframe>

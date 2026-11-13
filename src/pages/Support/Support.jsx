@@ -106,7 +106,7 @@ function Support() {
               {/* Email */}
 
               <a
-                href="mailto:info@rcubeelectrical.in"
+                href="mailto:info@darshikha.com"
                 className="support-contact-card"
               >
 
@@ -120,14 +120,15 @@ function Support() {
 
                   <h3>Email Support</h3>
 
-                  <p>info@rcubeelectrical.in</p>
+                  <p>info@darshikha.com</p>
 
                   <small>Reply Within 2 Hours</small>
 
                 </div>
 
               </a>
-                            {/* ================= WHATSAPP ================= */}
+
+              {/* ================= WHATSAPP ================= */}
 
               <a
                 href="https://wa.me/919108146948"
@@ -157,7 +158,7 @@ function Support() {
               {/* ================= OFFICE ================= */}
 
               <a
-                href="https://maps.google.com/?q=H.No.+7-3/1A/303,+Third+Floor,+Shivam+Elite,+Above+Union+Bank+of+India,+Chevella+Road,+Bhagya+Nagar+Colony,+Suncity,+Hyderabad,+Telangana+500091"
+                href="https://maps.google.com/?q=7-3/1A/303,+3rd+Floor,+Shivam+Elite,+Chevella+Road,+Rajendra+Nagar,+Above+Union+Bank+of+India,+Suncity,+Bandlaguda+Jagir,+Hyderabad,+Telangana+500091"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="support-contact-card"
@@ -174,11 +175,11 @@ function Support() {
                   <h3>Visit Our Office</h3>
 
                   <p>
-                    H.No. 7-3/1A/303, Third Floor,
-                    Shivam Elite, Hyderabad
+                    #7-3/1A/303, 3rd Floor, Shivam Elite,
+                    Above Union Bank, Suncity, Hyderabad
                   </p>
 
-                  <small>Telangana - 500091</small>
+                  <small>Telangana - 500091, India</small>
 
                 </div>
 
@@ -413,7 +414,7 @@ function Support() {
 
           <iframe
             title="Darshikha Infrastructure Pvt Ltd"
-            src="https://www.google.com/maps?q=H.No.%207-3/1A/303,%20Third%20Floor,%20Shivam%20Elite,%20Above%20Union%20Bank%20of%20India,%20Chevella%20Road,%20Bhagya%20Nagar%20Colony,%20Suncity,%20Hyderabad,%20Telangana%20500091&output=embed"
+            src="https://www.google.com/maps?q=7-3/1A/303,+Shivam+Elite,+Above+Union+Bank+of+India,+Chevella+Road,+Rajendra+Nagar,+Suncity,+Bandlaguda+Jagir,+Hyderabad,+Telangana+500091&output=embed"
             loading="lazy"
             allowFullScreen
           ></iframe>
@@ -431,22 +432,18 @@ function Support() {
 
             <p>
 
-              H.No. 7-3/1A/303,
-              Third Floor,
-              Shivam Elite,
-              Above Union Bank of India,
-              Chevella Road,
-              Bhagya Nagar Colony,
-              Suncity,
-              Hyderabad,
-              Telangana – 500091
+              #7-3/1A/303, 3rd Floor,
+              Shivam Elite, Chevella Road,
+              Rajendra Nagar, Above Union Bank of India,
+              Suncity, Bandlaguda Jagir, Ranga Reddy,
+              Hyderabad - 500091, Telangana, India.
 
             </p>
 
             <div className="office-buttons">
 
               <a
-                href="https://maps.google.com/?q=H.No.+7-3/1A/303,+Third+Floor,+Shivam+Elite,+Above+Union+Bank+of+India,+Chevella+Road,+Bhagya+Nagar+Colony,+Suncity,+Hyderabad,+Telangana+500091"
+                href="https://maps.google.com/?q=7-3/1A/303,+3rd+Floor,+Shivam+Elite,+Chevella+Road,+Rajendra+Nagar,+Above+Union+Bank+of+India,+Suncity,+Bandlaguda+Jagir,+Hyderabad,+Telangana+500091"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="direction-btn"

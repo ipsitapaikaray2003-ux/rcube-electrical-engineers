@@ -456,6 +456,12 @@
 
 }
 
+.footer-contact a.footer-address{
+
+    align-items:flex-start;
+
+}
+
 .footer-contact a:hover{
 
     color:#ffffff;

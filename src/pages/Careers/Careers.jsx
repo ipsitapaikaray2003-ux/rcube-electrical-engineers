@@ -542,13 +542,13 @@ function Careers() {
           <div className="career-contact-grid">
 
             <a
-              href="mailto:info@rcubeelectrical.in"
+              href="mailto:info@darshikha.com"
               className="career-contact-card"
             >
 
               <h3>Email HR</h3>
 
-              <p>info@rcubeelectrical.in</p>
+              <p>info@darshikha.com</p>
 
             </a>
 
