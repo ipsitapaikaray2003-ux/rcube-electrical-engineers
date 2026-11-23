@@ -146,7 +146,7 @@ function Hero() {
               <div className="hero-text">
 
                 <span className="hero-tag">
-                  ISO 9001 : 2015 Certified
+                  ISO Certified Company • 9001 | 14001 | 45001
                 </span>
 
                 <h1>

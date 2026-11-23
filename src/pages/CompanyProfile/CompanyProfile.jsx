@@ -5,6 +5,9 @@ import Footer from "../../components/Footer/Footer";
 
 import hero from "../../assets/about-banner.png";
 import company from "../../assets/about.png";
+import iso9001 from "../../assets/iso-9001.png";
+import iso14001 from "../../assets/iso-14001.png";
+import iso45001 from "../../assets/iso-45001.png";
 
 function CompanyProfile() {
   return (
@@ -76,6 +79,46 @@ function CompanyProfile() {
               <div>✔ Safety Standards</div>
 
               <div>✔ Timely Delivery</div>
+
+            </div>
+
+            {/* ISO Certifications */}
+            <div className="company-iso-section">
+
+              <h3>ISO Certified Company</h3>
+
+              <p>
+                Darshikha Infrastructure operates under stringent international
+                standards for Quality, Environmental Management, and Workplace Safety:
+              </p>
+
+              <div className="company-iso-grid">
+
+                <div className="company-iso-card">
+                  <img src={iso9001} alt="ISO 9001:2015 Certified" />
+                  <div className="company-iso-meta">
+                    <strong>ISO 9001:2015</strong>
+                    <span>Quality Management</span>
+                  </div>
+                </div>
+
+                <div className="company-iso-card">
+                  <img src={iso14001} alt="ISO 14001:2015 Certified" />
+                  <div className="company-iso-meta">
+                    <strong>ISO 14001:2015</strong>
+                    <span>Environmental Management</span>
+                  </div>
+                </div>
+
+                <div className="company-iso-card">
+                  <img src={iso45001} alt="ISO 45001:2018 Certified" />
+                  <div className="company-iso-meta">
+                    <strong>ISO 45001:2018</strong>
+                    <span>Health & Safety Management</span>
+                  </div>
+                </div>
+
+              </div>
 
             </div>
 

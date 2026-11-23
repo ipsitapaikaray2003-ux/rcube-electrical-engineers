@@ -398,6 +398,58 @@
     margin-bottom:35px;
 
 }
+/* ===========================
+   ABOUT ISO ROW
+=========================== */
+
+.about-iso-row{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    margin:25px 0 10px;
+    flex-wrap:wrap;
+}
+
+.about-iso-title{
+    color:#B89668;
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:1px;
+    text-transform:uppercase;
+}
+
+.about-iso-badge{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(184,150,104,.35);
+    padding:6px 14px 6px 8px;
+    border-radius:24px;
+    transition:.35s ease;
+    cursor:default;
+}
+
+.about-iso-badge:hover{
+    background:rgba(184,150,104,.15);
+    border-color:#B89668;
+    transform:translateY(-3px);
+}
+
+.about-iso-badge img{
+    width:34px;
+    height:34px;
+    object-fit:contain;
+    filter:drop-shadow(0 2px 6px rgba(0,0,0,.35));
+}
+
+.about-iso-badge span{
+    color:#fff;
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:.3px;
+}
+
 .about-image::after{
 
     content:"";

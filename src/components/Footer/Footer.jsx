@@ -17,6 +17,9 @@ import {
 } from "react-icons/fa";
 
 import logo from "../../assets/logo.png";
+import iso9001 from "../../assets/iso-9001.png";
+import iso14001 from "../../assets/iso-14001.png";
+import iso45001 from "../../assets/iso-45001.png";
 
 function Footer() {
 
@@ -248,6 +251,74 @@ function Footer() {
               <br />
               Bangalore & Mumbai
             </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      {/* ================= ISO CERTIFICATIONS STRIP ================= */}
+      <div className="footer-iso-strip">
+
+        <div className="footer-iso-container">
+
+          <div className="footer-iso-intro">
+
+            <span className="iso-tag">STANDARDS & CERTIFICATIONS</span>
+
+            <h4>ISO Certified Engineering Company</h4>
+
+            <p>
+              Committed to international standards in Quality Management,
+              Environmental Sustainability, and Occupational Health & Safety.
+            </p>
+
+          </div>
+
+          <div className="footer-iso-badges">
+
+            <div
+              className="footer-iso-item"
+              title="ISO 9001:2015 Quality Management System"
+            >
+              <img
+                src={iso9001}
+                alt="ISO 9001:2015 Certified"
+              />
+              <div className="footer-iso-meta">
+                <strong>ISO 9001:2015</strong>
+                <span>Quality Management</span>
+              </div>
+            </div>
+
+            <div
+              className="footer-iso-item"
+              title="ISO 14001:2015 Environmental Management System"
+            >
+              <img
+                src={iso14001}
+                alt="ISO 14001:2015 Certified"
+              />
+              <div className="footer-iso-meta">
+                <strong>ISO 14001:2015</strong>
+                <span>Environmental Management</span>
+              </div>
+            </div>
+
+            <div
+              className="footer-iso-item"
+              title="ISO 45001:2018 Occupational Health & Safety Management System"
+            >
+              <img
+                src={iso45001}
+                alt="ISO 45001:2018 Certified"
+              />
+              <div className="footer-iso-meta">
+                <strong>ISO 45001:2018</strong>
+                <span>Health & Safety Management</span>
+              </div>
+            </div>
 
           </div>
 

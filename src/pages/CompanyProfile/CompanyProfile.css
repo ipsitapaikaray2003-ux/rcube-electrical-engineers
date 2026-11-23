@@ -170,6 +170,79 @@
 }
 
 /*==========================================
+        COMPANY ISO SECTION
+==========================================*/
+
+.company-iso-section{
+    margin-top:45px;
+    padding-top:35px;
+    border-top:1px solid #e5e7eb;
+}
+
+.company-iso-section h3{
+    font-size:24px;
+    color:#111827;
+    margin-bottom:10px;
+    font-weight:700;
+}
+
+.company-iso-section p{
+    color:#6b7280;
+    font-size:15px;
+    line-height:1.7;
+    margin-bottom:24px;
+}
+
+.company-iso-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:20px;
+}
+
+.company-iso-card{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    background:#f8f9fb;
+    border:1px solid #e5e7eb;
+    border-radius:14px;
+    padding:16px 14px;
+    transition:.35s ease;
+}
+
+.company-iso-card:hover{
+    transform:translateY(-5px);
+    border-color:#c8a46a;
+    box-shadow:0 12px 25px rgba(200,164,106,.15);
+    background:#fff;
+}
+
+.company-iso-card img{
+    width:58px;
+    height:58px;
+    object-fit:contain;
+    filter:drop-shadow(0 4px 10px rgba(0,0,0,.15));
+}
+
+.company-iso-meta{
+    display:flex;
+    flex-direction:column;
+}
+
+.company-iso-meta strong{
+    color:#111827;
+    font-size:15px;
+    font-weight:700;
+}
+
+.company-iso-meta span{
+    color:#c8a46a;
+    font-size:12px;
+    font-weight:600;
+    margin-top:2px;
+}
+
+/*==========================================
         RESPONSIVE
 ==========================================*/
 
@@ -181,6 +254,10 @@ grid-template-columns:1fr;
 
 gap:60px;
 
+}
+
+.company-iso-grid{
+    grid-template-columns:1fr;
 }
 
 .company-image::after{
